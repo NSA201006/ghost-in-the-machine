@@ -44,7 +44,7 @@ probs=F.softmax(outputs.logits,dim=-1).cpu().numpy()[0]
 
 return probs[0]
 
-geminiapikey="AIzaSyDewnm_ZVdI0vEgVlWMu1gssXHB9RAYpKc"
+geminiapikey="aaa"
 genai.configure(api_key=geminiapikey)
 
 print("checking available gemini models")
